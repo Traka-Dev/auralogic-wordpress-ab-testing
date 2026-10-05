@@ -3,7 +3,7 @@ Tags: ab testing, conversion, gutenberg, elementor, experiments
 Requires at least: 6.5
 Tested up to: 6.8
 Requires PHP: 8.0
-Stable tag: 0.3.3
+Stable tag: 0.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -33,5 +33,8 @@ No. Los experimentos y eventos se conservan.
 
 == Changelog ==
 
-= 0.3.3 =
+= 0.4.0 =
+Panel de experimentos con resumen, comparación A/B, búsqueda, filtros y pausa/reactivación.
+
+= 0.4.0 =
 Preparación open source bajo Aura Logic, licencia, documentación, CI y empaquetado reproducible.

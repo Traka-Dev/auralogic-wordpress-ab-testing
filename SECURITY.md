@@ -4,9 +4,7 @@ El proyecto está en desarrollo temprano. Se mantienen correcciones en la rama `
 
 ## Reportar una vulnerabilidad
 
-Contacta de forma privada mediante el sitio de [Aura Logic](https://auralogic.dev/). Incluye versión, pasos de reproducción sanitizados e impacto. No publiques tokens, datos de visitantes o detalles de una vulnerabilidad sin corregir en un issue público.
-
-Al publicar el repositorio, los mantenedores deben habilitar los reportes privados de vulnerabilidades de GitHub y añadir aquí el enlace real.
+Usa los [reportes privados de vulnerabilidades de GitHub](https://github.com/Traka-Dev/auralogic-wordpress-ab-testing/security/advisories/new). Si ese canal no está disponible, contacta de forma privada mediante el sitio de [Aura Logic](https://auralogic.dev/). Incluye versión, pasos de reproducción sanitizados e impacto. No publiques tokens, datos de visitantes o detalles de una vulnerabilidad sin corregir en un issue público.
 
 ## Límites relevantes
 

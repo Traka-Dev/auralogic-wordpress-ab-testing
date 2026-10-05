@@ -1,6 +1,6 @@
 {
-  "name": "auralogic-ab-testing",
-  "version": "0.3.3",
+  "name": "auralogic-wordpress-ab-testing",
+  "version": "0.4.0",
   "private": true,
   "description": "Development tools for the Aura Logic WordPress A/B testing plugin",
   "author": "Aura Logic",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "playwright": "1.63.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Traka-Dev/auralogic-wordpress-ab-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Traka-Dev/auralogic-wordpress-ab-testing/issues"
+  },
+  "homepage": "https://github.com/Traka-Dev/auralogic-wordpress-ab-testing#readme"
 }

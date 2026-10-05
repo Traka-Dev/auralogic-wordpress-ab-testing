@@ -4,9 +4,10 @@
 /**
  * Plugin Name: Aura Logic A/B Testing
  * Description: Experimentos entre páginas y medición de conversiones, independientes del constructor.
- * Version: 0.3.3
+ * Version: 0.4.0
  * Requires at least: 6.5
  * Requires PHP: 8.0
+ * Plugin URI: https://github.com/Traka-Dev/auralogic-wordpress-ab-testing
  * Author: Aura Logic
  * Author URI: https://auralogic.dev/
  * License: GPL-2.0-or-later
@@ -14,10 +15,11 @@
  * Text Domain: builder-ab-testing
  */
 if (!defined('ABSPATH')) { exit; }
-define('BAT_VERSION', '0.3.3');
+define('BAT_VERSION', '0.4.0');
 define('BAT_FILE', __FILE__);
 require_once __DIR__ . '/includes/class-bat-plugin.php';
 require_once __DIR__ . '/includes/class-bat-admin.php';
+require_once __DIR__ . '/includes/class-bat-dashboard.php';
 require_once __DIR__ . '/includes/class-bat-rest.php';
 require_once __DIR__ . '/includes/class-bat-integrations.php';
 register_activation_hook(__FILE__, ['BAT_Plugin', 'install']);

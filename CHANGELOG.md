@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-10-05
+
+- Panel con resumen, tarjetas A/B, tasas y cambio relativo descriptivo.
+- Búsqueda, filtros por estado, diseño adaptable y guía de configuración.
+- Pausa/reactivación desde el panel con validación de páginas y conflictos, sin cambiar revisión.
+- Consulta agregada de métricas para las revisiones actuales y nuevas pruebas de administración.
+- Repositorio público `Traka-Dev/auralogic-wordpress-ab-testing`.
+
+
 ## 0.3.3 — 2026-10-05
 
 - Preparación open source bajo la marca Aura Logic y licencia GPL-2.0-or-later.

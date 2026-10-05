@@ -1,10 +1,24 @@
-# Aura Logic A/B Testing — 0.3.3
+# Aura Logic A/B Testing — 0.4.0
 
-Por [Aura Logic](https://auralogic.dev/). Open source bajo [GPL-2.0-or-later](LICENSE). Proyecto en desarrollo temprano, preparado para GitHub; todavía no publicado en WordPress.org.
+Por [Aura Logic](https://auralogic.dev/). Open source bajo [GPL-2.0-or-later](LICENSE). Proyecto en desarrollo temprano, disponible en [GitHub](https://github.com/Traka-Dev/auralogic-wordpress-ab-testing); todavía no publicado en WordPress.org.
 
 [Contribuir](CONTRIBUTING.md) · [Seguridad](SECURITY.md) · [Cambios](CHANGELOG.md) · [Crear releases](docs/RELEASING.md)
 
 Plugin de WordPress para probar dos páginas completas o dos variantes de contenido dentro de una página. Incluye medición de visitantes expuestos y conversiones únicas, un bloque nativo de Gutenberg y adaptadores de Elementor clásico y Atomic Elements. Es un único plugin: todos los adaptadores comparten experimentos, asignaciones y métricas.
+
+[![CI](https://github.com/Traka-Dev/auralogic-wordpress-ab-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/Traka-Dev/auralogic-wordpress-ab-testing/actions/workflows/ci.yml)
+
+## Panel de administración
+
+El panel es el centro del producto: resume las métricas de las revisiones actuales y presenta cada experimento con sus variantes A/B, reparto, exposiciones, conversiones y tasas. Puedes buscar por nombre, filtrar por estado, abrir su página y pausar o reactivar sin reiniciar sus resultados. Si sus páginas dejan de estar publicadas, indica que necesitan revisión.
+
+La diferencia relativa de B respecto de A es descriptiva; no declara un ganador ni calcula significación estadística. Cuando faltan exposiciones o la tasa de A es cero, explica por qué no calcula esa comparación.
+
+La configuración se organiza en tres pasos: definir la prueba, elegir qué medir y preparar el lanzamiento. Incluye una guía para publicar variantes y probar como visitante. Las métricas se consultan en lote, sin una consulta de eventos por tarjeta.
+
+![Panel de Aura Logic A/B Testing](https://raw.githubusercontent.com/Traka-Dev/auralogic-wordpress-ab-testing/main/docs/screenshots/admin-dashboard.png)
+
+Captura del entorno local con métricas de muestra generadas por las pruebas.
 
 ## Instalación
 
@@ -151,4 +165,13 @@ Añadir conversiones de formulario enviado con éxito, compras de WooCommerce ve
 
 El proyecto usa la rama `main`. Los artefactos, dependencias, copias locales de builders y archivos de entorno se excluyen de Git. Los workflows de GitHub ejecutan sintaxis PHP, pruebas JavaScript, integración WordPress/Elementor y pruebas de navegador; generan un ZIP validado para revisión.
 
-El repositorio remoto debe crearse antes de publicar. Después configura `origin` con su URL real y usa `git push -u origin main`. Consulta docs/RELEASING.md para publicar una versión.
+Repositorio público: [https://github.com/Traka-Dev/auralogic-wordpress-ab-testing](https://github.com/Traka-Dev/auralogic-wordpress-ab-testing).
+
+```bash
+git clone https://github.com/Traka-Dev/auralogic-wordpress-ab-testing.git
+cd auralogic-wordpress-ab-testing
+npm ci
+npm run dev:setup
+```
+
+Consulta docs/RELEASING.md para publicar una versión.
