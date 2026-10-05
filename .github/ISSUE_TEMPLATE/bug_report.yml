@@ -1,0 +1,17 @@
+name: Reportar error
+description: Un comportamiento incorrecto reproducible.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Versiones del plugin, WordPress, PHP, builder y caché.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Pasos y resultado
+      description: Indica pasos, resultado esperado y resultado observado. No compartas tokens ni credenciales.
+    validations:
+      required: true

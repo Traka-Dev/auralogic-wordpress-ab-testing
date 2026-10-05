@@ -1,0 +1,23 @@
+{
+  "name": "auralogic-ab-testing",
+  "version": "0.3.3",
+  "private": true,
+  "description": "Development tools for the Aura Logic WordPress A/B testing plugin",
+  "author": "Aura Logic",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/tracking.test.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "test:integration": "bash scripts/test-integration.sh",
+    "test:http": "python3 tests/http-smoke.py",
+    "dev:setup": "bash scripts/setup-local.sh",
+    "build": "python3 scripts/build.py",
+    "check:package": "python3 scripts/check-package.py"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

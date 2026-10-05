@@ -1,0 +1,13 @@
+/dist/
+/node_modules/
+/.local/
+.env
+.env.*
+!.env.example
+*.log
+*.sql
+*.sql.gz
+.DS_Store
+__pycache__/
+/playwright-report/
+/test-results/
