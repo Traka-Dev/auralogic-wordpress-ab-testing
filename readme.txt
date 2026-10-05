@@ -36,5 +36,5 @@ No. Los experimentos y eventos se conservan.
 = 0.4.0 =
 Panel de experimentos con resumen, comparación A/B, búsqueda, filtros y pausa/reactivación.
 
-= 0.4.0 =
+= 0.3.3 =
 Preparación open source bajo Aura Logic, licencia, documentación, CI y empaquetado reproducible.
