@@ -20,6 +20,8 @@ La configuración se organiza en tres pasos: definir la prueba, elegir qué medi
 
 Captura del entorno local con métricas de muestra generadas por las pruebas.
 
+[Guía práctica: instalar, configurar y leer tu primer experimento](docs/ADMIN_GUIDE.md).
+
 ## Instalación
 
 Instala `dist/builder-ab-testing.zip` desde **Plugins → Añadir plugin → Subir plugin**, actívalo y abre **A/B Testing**. Requiere WordPress 6.5+ y PHP 8.0+. Los experimentos y datos de la versión 0.1.0 se conservan como pruebas entre páginas; no necesitan migración de tablas.
